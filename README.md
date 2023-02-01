@@ -11,7 +11,7 @@ Build a Python script that detects faces in an image using OpenCV, and saves the
 * The script should be able to handle images with multiple faces
 * The script should save the headshots in the specified directory with the file name in the format "face_1.jpg", "face_2.jpg", etc.
 
-# [Answer: 🔑 (A1.py)](https://github.com/Astrojigs/Data-engineer-wavebreak/blob/main/A1.ipynb)
+# [Answer: 🔑 (A1.ipynb)](https://github.com/Astrojigs/Data-engineer-wavebreak/blob/main/A1.ipynb)
 
 # Second Question 2️⃣
 Move all image files from one S3 bucket to another S3 bucket, but only if the image has no transparent pixels.
