@@ -13,7 +13,7 @@ def detect_faces(image_path, output_dir):
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 
     # Use the classifier to detect faces in the image
-    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+    faces = face_cascade.detectMultiScale(gray, 1.2, 5)
 
     # Save the headshots of the detected faces
     i = 1
@@ -26,9 +26,5 @@ def detect_faces(image_path, output_dir):
 
     return len(faces)
 
-if __name__ == '__main__':
-    # Example usage
-    image_path = "C:/Users/astro/Pictures/resume_photo.jpg"
-    output_dir = "C:/Users/astro/Documents/GitHub/Data-engineer-wavebreak/Images"
-    num_faces = detect_faces(image_path, output_dir)
-    print('{} faces detected in the image'.format(num_faces))
+
+image_path = "C:/Users/astro/Documents/GitHub/Data-engineer-wavebreak/Images/diversity people 2.jpeg"
